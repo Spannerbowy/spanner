@@ -7,10 +7,12 @@
   <title>MBEE FOOTBALL CLUB</title>
   <!-- Scrip -->
   <script>
-  window.onload=>(){
-    int password=prompt("The system is under maintenance. To  check up with the process Enter ADMIN PASSWORD.");
-  if(password!="0762458354"){
-    window.location.href="error.html";}}
+  window.onload=function(){
+    var password=prompt("The system is under maintenance. To  check up with the process Enter ADMIN PASSWORD.");
+  if(password!=="0762458354"){
+    alert("incorrect password");
+    window.location.href="error.html";}
+  else{alert("You have gained access");}
   </script>
 <script>
     window.dataLayer = window.dataLayer || [];
