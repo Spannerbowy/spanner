@@ -166,6 +166,7 @@ button#button:hover {
     color: white;
 }
 #lab{
-    background-color:blue;
-    border-width:3px;
+    background-color:red;
+    border-width:6px;
+    border-radius:3px;
 }
