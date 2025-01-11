@@ -165,7 +165,7 @@ button#button:hover {
     background-color: var(--second-color);
     color: white;
 }
-#imageUpload{
+label{
     background-color:blue;
     border-width:3px;
 }
